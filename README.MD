@@ -1,15 +1,10 @@
 <div align="center">
 	<h1>htm.sh</h1>
 	<p>
-		<b>Turn your code into a live website instantly from your shell.</b>
-
-    No setup, no servers, no stress. Just one command and your HTML, CSS, and JavaScript are live for the world to see.
+		<b>Turn your code into a live website instantly from your shell.</b>No setup, no servers, no stress. Just one command and your HTML, CSS, and JavaScript are live for the world to see.
 	</p>
 	<br>
-	<br>
-	<br>
 </div>
-
 
 [![npm version](https://badge.fury.io/js/htmsh.svg)](https://badge.fury.io/js/htmsh)
 [![Node.js Version](https://img.shields.io/node/v/htmsh.svg)](https://nodejs.org/)
