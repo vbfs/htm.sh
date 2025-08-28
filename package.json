@@ -1,10 +1,14 @@
 {
   "name": "htmsh",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Turn your code into a live website instantly from your shell. No setup, no servers, no stress. Just one command and your HTML, CSS, and JavaScript are live for the world to see.",
   "type": "module",
   "bin": {
-    "htmsh": "./cli/htm.js"
+    "htmsh": "./dist/htm.modern.js"
+  },
+  "scripts": {
+    "build": "microbundle build --entry cli/htm.js --output dist/htm.js --format modern --target node --compress --no-sourcemap",
+    "postbuild": "chmod +x dist/htm.modern.js"
   },
   "engines": {
     "node": ">=18"
@@ -17,7 +21,7 @@
     "tar": "^6.2.0"
   },
   "files": [
-    "cli/",
+    "dist/",
     "lib/",
     "README.MD"
   ],
@@ -28,5 +32,8 @@
     "spa",
     "surge"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
 }
