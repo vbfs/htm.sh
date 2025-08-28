@@ -314,8 +314,8 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 - 📖 Documentation: `htmsh docs`
 - 💡 Tips: `htmsh tips`
-- 🐛 Issues: [GitHub Issues](https://github.com/vbfs/htmsh/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/vbfs/htmsh/discussions)
+- 🐛 Issues: [GitHub Issues](https://github.com/vbfs/htm.sh/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/vbfs/htm.sh/discussions)
 
 ---
 
