@@ -1,12 +1,12 @@
 # htm.sh
 
-**Deploy static sites in seconds, straight from the shell.**
+**Turn your code into a live website instantly from your shell.**
 
 [![npm version](https://badge.fury.io/js/htmsh.svg)](https://badge.fury.io/js/htmsh)
 [![Node.js Version](https://img.shields.io/node/v/htmsh.svg)](https://nodejs.org/)
 [![License](https://img.shields.io/npm/l/htmsh.svg)](https://github.com/vbfs/htmsh/blob/main/LICENSE)
 
-Turn your code into a live website instantly from your shell. No setup, no servers, no stress. Just one command and your HTML, CSS, and JavaScript are live for the world to see.
+No setup, no servers, no stress. Just one command and your HTML, CSS, and JavaScript are live for the world to see.
 
 ## Features
 
