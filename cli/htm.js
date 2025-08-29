@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 /**
  * htm.sh - Single-file CLI (UX, real upload progress + custom help)
- * Node 18+, requires `tar` in PATH.
  */
 import { program } from "commander";
 import fs from "node:fs";

@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "microbundle build --entry cli/htm.js --output dist/htm.js --format modern --target node --compress --no-sourcemap",
+    "prepublish": "npm run build",
     "postbuild": "chmod +x dist/htm.modern.js"
   },
   "engines": {
