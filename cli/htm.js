@@ -17,7 +17,7 @@ import { bold, dim, white, cyan, yellow, magenta, lightGreen, bgLightGreen } fro
 
 const store = new Conf({ projectName: "htmsh" });
 
-const CURRENT_VERSION = "0.1.7";
+const CURRENT_VERSION = "0.1.8";
 const DEFAULT_SPA = true;
 const DEFAULT_TTL = 24 * 60 * 60 * 1000;
 const MAX_RETRIES = 1;
