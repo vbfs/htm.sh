@@ -1,6 +1,6 @@
 {
   "name": "htmsh",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Turn your code into a live website instantly from your shell. No setup, no servers, no stress. Just one command and your HTML, CSS, and JavaScript are live for the world to see.",
   "type": "module",
   "bin": {
