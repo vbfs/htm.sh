@@ -16,7 +16,7 @@ import { bold, dim, white, cyan, yellow, magenta, lightGreen, bgLightGreen } fro
 
 const store = new Conf({ projectName: "htmsh" });
 
-const CURRENT_VERSION = "0.1.9";
+const CURRENT_VERSION = "0.2.0";
 const DEFAULT_SPA = true;
 const DEFAULT_TTL = 24 * 60 * 60 * 1000;
 const MAX_RETRIES = 1;
@@ -742,6 +742,8 @@ program
         );
       }
       ui.blank();
+      ui.row("Success! Your project is live at", res?.subdomain || `https://${project}.htm.sh`, "green");
+      ui.blank();
 
       if (opts.json) {
         ui.jout({
@@ -754,9 +756,6 @@ program
           passwordProtected: res?.passwordProtected,
           gateway,
         });
-        ui.blank();
-        ui.row("Success! Live at ", res?.subdomain || `https://${project}.htm.sh`, "green");
-        ui.blank();
       }
 
       process.exit(0);
